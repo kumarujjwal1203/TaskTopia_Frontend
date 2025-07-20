@@ -99,7 +99,7 @@ const Sidebar = ({ user, tasks }) => {
           </div>
           {renderMenuItems()}
 
-          <div className="mt-auto pt-6 lg:block hidden">
+          {/* <div className="mt-auto pt-6 lg:block hidden">
             <div className={TIP_CARD.container}>
               <div className="flex items-center gap-2">
                 <div className={TIP_CARD.iconWrapper}>
@@ -118,6 +118,41 @@ const Sidebar = ({ user, tasks }) => {
                   >
                     Visit Hexagon Digital Services
                   </a>
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          <div className="mt-auto pt-6 lg:block hidden">
+            <div className={TIP_CARD.container}>
+              <div className="flex items-center gap-2">
+                <div className={TIP_CARD.iconWrapper}>
+                  <Lightbulb className="w-5 h-5 text-indigo-500" />
+                </div>
+                <div>
+                  <h3 className={TIP_CARD.title}>Made By</h3>
+                  <p className={TIP_CARD.text}>
+                    Ujjwal Kumar — passionate MERN stack developer.
+                  </p>
+
+                  <div className="mt-2 space-y-1">
+                    <a
+                      href="https://github.com/kumarujjwal1203"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-sm text-indigo-500 hover:underline"
+                    >
+                      Visit My GitHub
+                    </a>
+                    <a
+                      href="www.linkedin.com/in/ujjwal-kumar-672530252"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-sm text-indigo-500 hover:underline"
+                    >
+                      Connect on LinkedIn
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
