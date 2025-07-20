@@ -99,30 +99,6 @@ const Sidebar = ({ user, tasks }) => {
           </div>
           {renderMenuItems()}
 
-          {/* <div className="mt-auto pt-6 lg:block hidden">
-            <div className={TIP_CARD.container}>
-              <div className="flex items-center gap-2">
-                <div className={TIP_CARD.iconWrapper}>
-                  <Lightbulb className="w-5 h-5 text-indigo-500" />
-                </div>
-                <div>
-                  <h3 className={TIP_CARD.title}>Pro Tip</h3>
-                  <p className={TIP_CARD.text}>
-                    {" "}
-                    Use keyboard shortcuts to boost productivity!
-                  </p>
-                  <a
-                    href="https://hexagondigitalservices.com"
-                    target="_blank"
-                    className="block mt-2 text -sm text-indigo-500 hover:underline"
-                  >
-                    Visit Hexagon Digital Services
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
           <div className="mt-auto pt-6 lg:block hidden">
             <div className={TIP_CARD.container}>
               <div className="flex items-center gap-2">
@@ -145,7 +121,7 @@ const Sidebar = ({ user, tasks }) => {
                       Visit My GitHub
                     </a>
                     <a
-                      href="www.linkedin.com/in/ujjwal-kumar-672530252"
+                      href="https://www.linkedin.com/in/ujjwal-kumar-672530252"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-sm text-indigo-500 hover:underline"
